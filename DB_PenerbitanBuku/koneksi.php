@@ -1,7 +1,7 @@
 <?php
 $host = "localhost";
 $user = "root";
-$password = ""; //Kosongkan jika default WAMP
+$password = ""; 
 $database = "DB_PenerbitanBuku";
 
 $conn = new mysqli($host, $user, $password, $database);
